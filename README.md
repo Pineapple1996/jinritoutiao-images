@@ -3,9 +3,18 @@
 
 ----------
 
+## 主要用到的库： ##
+```
+requests
+re
+pymongo
+multiprocessing 
+BeautifulSoup
+json
+```
 
 
-分析url：
+## 分析url： ##
 
 url：https://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D%E7%BE%8E%E5%A5%B3
 
@@ -21,14 +30,14 @@ url：https://www.toutiao.com/search/?keyword=%E8%A1%97%E6%8B%8D%E7%BE%8E%E5%A5%
 
 
 
-> mongodb数据库显示结果：
+> ## mongodb数据库显示结果： ##
 
 ![](https://i.imgur.com/kAh4c0e.jpg)
 
-> 下载的图片：
+> ## 下载的图片： ##
 
 ![](https://i.imgur.com/U8uLxII.jpg)
 
-> 输出的结果：
+> ## 输出的结果： ##
 
 ![](https://i.imgur.com/knI3IoZ.png)
